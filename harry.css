@@ -1,0 +1,74 @@
+body {
+    
+    background-image: linear-gradient(rgb(149, 230, 242),  white);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+#header-image {
+    margin: 10px 20px;
+}
+
+.aclass{
+    background-image: linear-gradient(rgba(17, 3, 54, 0.886), darkblue);
+}
+#title_style {
+    color: aqua;
+    font-size: 260%;
+    font-display: auto;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#filler{
+    background-image: linear-gradient(blueviolet, violet)
+}
+
+#main_text {
+    color: blue;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-indent: 1cm;
+    text-shadow: 2cm;
+}
+#super {
+    color: darkblue;
+    font-family: cursive;
+    font-size: 300%;
+    flex-wrap: inherit;
+}
+#quiz_image {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    margin-top: 10px;
+}
+
+.button {
+    background-image: linear-gradient(blueviolet, violet);
+    height: 50px;
+    text-shadow: 1cm;
+    color: beige;
+    font-size: 150%;
+    border-color: blueviolet;
+    font-family: fantasy;
+    text-align: justify;
+    border-radius: 4px;
+    
+}
+#access_button {
+    background-image: linear-gradient(rgba(17, 3, 54, 0.886), darkblue);
+    font-size: 350%;
+    text-shadow: 1cm;
+    color: aquamarine;
+    
+    border-color: darkblue;
+    font-family: sans-serif;
+    text-align: justify;
+    border-radius: 12px;
+}
